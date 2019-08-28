@@ -36,8 +36,8 @@
     "vscode-test": "^1.0.2"
   },
   "publisher": "mumu",
-  "repository": "ssh://git@g.hz.netease.com:22222/wc-flutter/auto_access_vscode_extension.git",
-  "homepage": "https://g.hz.netease.com/wc-flutter/auto_access_vscode_extension",
+  "repository": "https://github.com/raomengyun/auto_assets.git",
+  "homepage": "https://github.com/raomengyun/auto_assets.git",
   "dependencies": {
     "auto_assets": "1.0.2"
   }
