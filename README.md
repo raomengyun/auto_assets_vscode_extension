@@ -1,16 +1,13 @@
-# auto-assets README
+# 1. 解决的问题
 
-This a Extension of [auto_assets](https://github.com/raomengyun/auto_assets)
+1. 自动生成 pubspec.yaml 资源声明。
+2. 自动压缩资源（目前支持: jpg/jpeg/png/svg）。
+3. 自动资源类型化，类似于的 Android 的 R.java，例如：
 
-# 1. 功能
-
-1. 自动监听资源文件夹，自动生成 assets 声明并插入 pubspec.yaml 文件中.
-2. 自动压缩图片资源（jpg/jpeg/png/svg）。
-3. 使用类型来声明并且引用图片资源，例如：
    ```dart
    class Assets {
       Assets._();
-      static const String get commonIconClose => "assets/common/icon_close.png";
+      static const String commonIconClose = "assets/common/icon_close.png";
    }
 
    class AssetImages {
@@ -19,11 +16,11 @@ This a Extension of [auto_assets](https://github.com/raomengyun/auto_assets)
    }
    ```
 
-# 4. 工具使用
+# 2. 工具使用
 
-> 根目录中含有 `assets_config.json` 时会自动开启。
+## 2.1. 项目配置
 
-`assets_config.json`配置内容：
+在项目根目录下新建 `assets_config.json` 文件，文件内容：
 
 ```json
 {
@@ -32,5 +29,10 @@ This a Extension of [auto_assets](https://github.com/raomengyun/auto_assets)
 }
 ```
 
-- `assets` 代表资源的根目录
+- `assets` 代表项目中资源文件的根目录
 - `code` 代表自动生成的代码的根目录
+
+## 2.2. VSCode 插件
+
+1. 在 VSCode -> Extensions 下搜索 `auto_assets` 并安装。
+2. 重新打开项目。
