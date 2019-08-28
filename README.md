@@ -40,6 +40,6 @@ This a Extension of [auto_access](https://github.com/raomengyun/auto_assets)
 
 `Command`+`Shift`+`P`，选择 `Auto Assets`。
 
-![auto_assets](./images/auto_assets.png)
+![auto_assets](https://raw.githubusercontent.com/raomengyun/auto_assets_vscode_extension/master/images/auto_assets.png)
 
 执行命令后，资源文件夹内所有的变动都会自动更新到自动生成的代码上。
