@@ -39,6 +39,6 @@
   "repository": "ssh://git@g.hz.netease.com:22222/wc-flutter/auto_access_vscode_extension.git",
   "homepage": "https://g.hz.netease.com/wc-flutter/auto_access_vscode_extension",
   "dependencies": {
-    "auto_assets": "ssh://git@g.hz.netease.com:22222/wc-flutter/auto_assets.git"
+    "auto_assets": "1.0.2"
   }
 }
