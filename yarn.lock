@@ -199,10 +199,10 @@ astral-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
   integrity sha512-+Ryf6g3BKoRc7jfp7ad8tM4TtMiaWvbF/1/sQcZPkkS7ag3D5nMBCe2UfOTONtAkaG0tO0ij3C5Lwmf1EiyjHg==
 
-auto_assets@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/auto_assets/-/auto_assets-1.0.2.tgz#69cc1fee9bddf7c765288312f873bf9a1dfd971a"
-  integrity sha512-D5m+l2ibM6+U2/wizdCiXpHNtCJqS/pHaJytp4F08YeABAPKNWmWrR928x2H4/IeJvqiYYONJie+S7+sd7ustQ==
+auto_assets@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/auto_assets/-/auto_assets-1.0.3.tgz#b9b1fc37c3bf5e7282540ce0dc26dff2c850025b"
+  integrity sha512-DO217RZm1xYlcf6F+be9Q/MrLIxAiTz/i4mTgzDMwVRYQqaCpD+hRKOIyc3iSHvtNApH89JsdFl0HSYAmjfB0w==
   dependencies:
     chokidar "^3.0.2"
     imagemin "^7.0.0"
