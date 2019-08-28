@@ -1,6 +1,6 @@
 # auto-assets README
 
-This a Extension of [auto_access](https://github.com/raomengyun/auto_assets)
+This a Extension of [auto_assets](https://github.com/raomengyun/auto_assets)
 
 # 1. 功能
 
@@ -12,11 +12,16 @@ This a Extension of [auto_access](https://github.com/raomengyun/auto_assets)
       Assets._();
       static const String get commonIconClose => "assets/common/icon_close.png";
    }
+
+   class AssetImages {
+      AssetImages._();
+      static AssetImage get commonIconClose => const AssetImage(Assets.commonIconClose);
+   }
    ```
 
 # 4. 工具使用
 
-> 根目录中是否有 `assets_config.json` 时会自动开启。
+> 根目录中含有 `assets_config.json` 时会自动开启。
 
 `assets_config.json`配置内容：
 
