@@ -2,7 +2,7 @@
   "name": "auto-assets",
   "displayName": "auto_assets",
   "description": "auto_assets for VSCode",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "engines": {
     "vscode": "^1.37.0"
   },
@@ -14,7 +14,10 @@
   ],
   "main": "./extension.js",
   "scripts": {
-    "test": "node ./test/runTest.js"
+    "vscode:prepublish": "webpack --mode production",
+    "webpack": "webpack --mode development",
+    "webpack-dev": "webpack --mode development --watch",
+    "test-compile": "tsc -p ./"
   },
   "devDependencies": {
     "@types/glob": "^7.1.1",
@@ -24,8 +27,12 @@
     "eslint": "^5.13.0",
     "glob": "^7.1.4",
     "mocha": "^6.1.4",
+    "node-loader": "^0.6.0",
+    "ts-loader": "^6.0.4",
     "typescript": "^3.3.1",
-    "vscode-test": "^1.0.2"
+    "vscode-test": "^1.0.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
   },
   "publisher": "mumu",
   "repository": "https://github.com/raomengyun/auto_assets.git",
