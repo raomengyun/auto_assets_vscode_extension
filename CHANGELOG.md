@@ -1,3 +1,7 @@
+## 0.0.7
+
+1. fix runtime error
+
 ## 0.0.6
 
 1. default code folder(lib/assets)
